@@ -1,0 +1,25 @@
+@font-face {
+     font-family: Silk Serif;
+     src: url("fonts/Silk Serif ExtraLight.otf");
+}
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.main__text {
+     background-color: #f0f0f0;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     
+}
+.heading__text {
+     font-family: Silk Serif;
+     font-size: 5em;
+     text-align: center;
+     position: relative;
+     top: 12%;
+}
