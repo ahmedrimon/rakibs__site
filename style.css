@@ -1,6 +1,6 @@
 @font-face {
      font-family: Silk Serif;
-     src: url("fonts/Silk Serif ExtraLight.otf");
+     src: url("fonts/Silk\ Serif\ Regular.otf");
 }
 
 * {
@@ -9,8 +9,13 @@
      box-sizing: border-box;
 }
 
+::selection {
+  color: #f0f0f0;
+  background: rgb(50, 103, 60);
+}
+
 .main__text {
-     background-color: #f0f0f0;
+     background-color: #030302;
      height: 100vh;
      display: flex;
      justify-content: center;
@@ -18,8 +23,10 @@
 }
 .heading__text {
      font-family: Silk Serif;
-     font-size: 5em;
+     font-size: 9em;
+     font-weight: 200;
      text-align: center;
      position: relative;
      top: 12%;
+     color: #760000;
 }
