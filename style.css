@@ -2,6 +2,10 @@
      font-family: Silk Serif;
      src: url("fonts/Silk\ Serif\ Regular.otf");
 }
+@font-face {
+     font-family: Apercu;
+     src: url("fonts/Apercu\ Regular.otf");
+}
 
 * {
      margin: 0;
@@ -42,4 +46,33 @@
 .marquee__text:hover {
      color: #190b0b;
      cursor: pointer;
+}
+.third__main {
+     display: flex;
+     height: 30vh;
+}
+.text__name {
+     width: 30%;
+     font-family: Apercu;
+     font-size: 2em;
+     font-weight: 200;
+     color: #760000;
+     display: flex;
+     align-items: flex-end;
+     margin-left: 2em;
+     
+}
+.little__para {
+     width: 30%;
+     font-family: Apercu;
+     display: flex;
+     align-items: center;
+}
+.video__js {
+     display: flex;
+     justify-content: space-around;
+     width: 40%;
+}
+.video__container {
+     border-radius: 24em;     
 }
